@@ -6,7 +6,7 @@
           <div class="footer_top flex-column">
             <div class="footer_logo">
               <a href="#">
-                <img src="../assets/img/logo.png" alt="">
+                <img src="../assets/img/logo.svg" alt="">
               </a>
               <h4>Follow Me</h4>
             </div>

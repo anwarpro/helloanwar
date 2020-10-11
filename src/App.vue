@@ -1,5 +1,4 @@
 <template>
-  <!--  <img alt="Vue logo" src="./assets/logo.png">-->
   <!--================ Start Header Area =================-->
   <Nav/>
   <!--================ End Header Area =================-->
@@ -438,7 +437,7 @@ export default {
 
       setTimeout(function (){
         $('.refresh').trigger("click");
-      }, 500)
+      }, 2000)
 
     }
   },
