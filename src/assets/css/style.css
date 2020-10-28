@@ -2914,7 +2914,10 @@ h6 {
     margin-bottom: 23px; }
 
   .header_area .navbar {
-    background: #000; }
+    background: #fff;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    padding-left: 10px !important;
+  }
 
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1; }
@@ -2936,7 +2939,7 @@ h6 {
     display: block;
     width: 25px;
     height: 3px;
-    background: #fff;
+    background: #7418e3c9;
     margin: auto;
     margin-bottom: 4px;
     transition: all 400ms linear;
@@ -2963,7 +2966,7 @@ h6 {
     display: block;
     border-bottom: 1px solid #ededed33;
     border-radius: 0px;
-    color: #fff; }
+  }
 
   .header_area .navbar .search {
     margin-left: 0px; }
@@ -2985,7 +2988,7 @@ h6 {
 
   .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 40px;
-    color: #fff; }
+  }
 
   .header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 40px;
@@ -3084,9 +3087,21 @@ h6 {
     padding-bottom: 50px; }
 
   .home_banner_area .banner_inner .banner_content {
-    margin-top: 0px; }
-    .home_banner_area .banner_inner .banner_content .primary_btn {
-      display: none; }
+    margin-top: 0px;
+  }
+
+  .home_banner_area .banner_inner .banner_content .primary_btn {
+    margin-right: 20px;
+  }
+
+  .home_banner_area .banner_inner .banner_content .primary_btn span {
+    padding: 0 30px;
+  }
+
+  .subscription_box .subscription textarea, .subscription_box .subscription input {
+    min-width: 50px !important;
+    max-width: 250px !important;
+  }
 
   /* Blog Page Area css
   ============================================================================================ */

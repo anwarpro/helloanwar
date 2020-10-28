@@ -14,7 +14,7 @@
               <h1 class="text-uppercase">I am Anwar H.</h1>
               <h5 class="text-uppercase">senior fullstack developer</h5>
               <div class="d-flex align-items-center">
-                <a class="primary_btn" href="#"><span>Hire Me</span></a>
+                <a class="primary_btn" href="#contact"><span>Hire Me</span></a>
                 <a class="primary_btn tr-bg" href="#"><span>Get CV</span></a>
               </div>
             </div>
@@ -46,13 +46,13 @@
               Introduce about <br>
               myself</h2>
             <p>
-              Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven
-              midst their. Beast creepeth. Fish days.
+              I have been working in programming & development for over 6 years. I have worked as a senior application
+              developer at <a href="https://programming-hero.com" target="_blank">Programming Hero</a>. Also worked at
+              <a href="https://webnestbd.com" target="_blank">WebNest Solutions</a> as a Fullstack Developer.
             </p>
             <p>
-              Is give may shall likeness made yielding spirit a itself together created after sea
-              is in beast beginning signs open god you're gathering whose gathered cattle let.
-              Creature whales fruit unto meat the life beginning all in under give two.
+              I like electronics & embedded programming. I spent my leisure time doing IoT, Arduino, circuit design &
+              analysis.
             </p>
             <a class="primary_btn" href="#"><span>Download CV</span></a>
           </div>
@@ -131,16 +131,16 @@
         <div class="offset-lg-2 col-lg-4 col-md-6">
           <div class="client-info">
             <div class="d-flex mb-50">
-              <span class="lage">5</span>
-              <span class="smll">Years Experience Working</span>
+              <span class="lage">6</span>
+              <span class="smll">Years Working Experience</span>
             </div>
             <div class="call-now d-flex">
               <div>
                 <span class="fa fa-phone"></span>
               </div>
               <div class="ml-15">
-                <p>call us now</p>
-                <h3>(+1)-800-555-6789</h3>
+                <p>call me now</p>
+                <h3><a href="tel:+8801722635124">+8801722635124</a></h3>
               </div>
             </div>
           </div>
@@ -159,8 +159,8 @@
           <div class="main_title">
             <h2>service offers </h2>
             <p>
-              Is give may shall likeness made yielding spirit a itself togeth created
-              after sea <br> is in beast beginning signs open god you're gathering ithe
+              I will design & develop any type of mobile and web application for your company. Also, I can add a new
+              features and fix bugs to your existing projects.
             </p>
           </div>
         </div>
@@ -169,29 +169,58 @@
         <div class="col-lg-3 col-md-6">
           <div class="feature_item">
             <img src="./assets/img/services/s1.png" alt="">
-            <h4>Wp developing</h4>
-            <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+            <h4>Mobile Application Development</h4>
+            <ul>
+              <li>Java</li>
+              <li>Kotlin</li>
+              <li>Flutter</li>
+              <li>Swift</li>
+              <li>Kivy</li>
+            </ul>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="feature_item">
             <img src="./assets/img/services/s2.png" alt="">
-            <h4>UI/ux design</h4>
-            <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+            <h4>Web Development</h4>
+            <ul>
+              <li>PHP</li>
+              <li>Laravel</li>
+              <li>Vue</li>
+              <li>Node</li>
+              <li>Wordpress</li>
+              <li>Django</li>
+            </ul>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="feature_item">
             <img src="./assets/img/services/s3.png" alt="">
             <h4>Web design</h4>
-            <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Bootstrap</li>
+              <li>Material Design</li>
+              <li>Vue JS</li>
+              <li>React</li>
+            </ul>
+            <p></p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="feature_item">
             <img src="./assets/img/services/s4.png" alt="">
-            <h4>seo optimize</h4>
-            <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+            <h4>Database Administration</h4>
+            <ul>
+              <li>MySql</li>
+              <li>Postgres</li>
+              <li>Mongodb</li>
+              <li>DB Design</li>
+              <li>DB Backup</li>
+              <li>DB Replication</li>
+            </ul>
+            <p></p>
           </div>
         </div>
       </div>
@@ -244,129 +273,151 @@
   <!--================End Portfolio Area =================-->
 
   <!--================ Start Testimonial Area =================-->
-  <div class="testimonial_area section_gap_bottom content_section" id="testomonial">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <div class="main_title">
-            <h2>client say about me</h2>
-            <p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
-              beginning signs open god you're gathering ithe</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="testi_slider owl-carousel">
-          <div class="testi_item">
-            <div class="row">
-              <div class="col-lg-4">
-                <img src="./assets/img/testimonials/t1.jpg" alt="">
-              </div>
-              <div class="col-lg-8">
-                <div class="testi_text">
-                  <h4>Elite Martin</h4>
-                  <p>Him, made can't called over won't there on divide there male fish beast own his day third seed
-                    sixth seas unto. Saw from </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testi_item">
-            <div class="row">
-              <div class="col-lg-4">
-                <img src="./assets/img/testimonials/t2.jpg" alt="">
-              </div>
-              <div class="col-lg-8">
-                <div class="testi_text">
-                  <h4>Davil Saden</h4>
-                  <p>Him, made can't called over won't there on divide there male fish beast own his day third seed
-                    sixth seas unto. Saw from </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testi_item">
-            <div class="row">
-              <div class="col-lg-4">
-                <img src="./assets/img/testimonials/t1.jpg" alt="">
-              </div>
-              <div class="col-lg-8">
-                <div class="testi_text">
-                  <h4>Elite Martin</h4>
-                  <p>Him, made can't called over won't there on divide there male fish beast own his day third seed
-                    sixth seas unto. Saw from </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testi_item">
-            <div class="row">
-              <div class="col-lg-4">
-                <img src="./assets/img/testimonials/t2.jpg" alt="">
-              </div>
-              <div class="col-lg-8">
-                <div class="testi_text">
-                  <h4>Davil Saden</h4>
-                  <p>Him, made can't called over won't there on divide there male fish beast own his day third seed
-                    sixth seas unto. Saw from </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testi_item">
-            <div class="row">
-              <div class="col-lg-4">
-                <img src="./assets/img/testimonials/t1.jpg" alt="">
-              </div>
-              <div class="col-lg-8">
-                <div class="testi_text">
-                  <h4>Elite Martin</h4>
-                  <p>Him, made can't called over won't there on divide there male fish beast own his day third seed
-                    sixth seas unto. Saw from </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testi_item">
-            <div class="row">
-              <div class="col-lg-4">
-                <img src="./assets/img/testimonials/t2.jpg" alt="">
-              </div>
-              <div class="col-lg-8">
-                <div class="testi_text">
-                  <h4>Davil Saden</h4>
-                  <p>Him, made can't called over won't there on divide there male fish beast own his day third seed
-                    sixth seas unto. Saw from </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- <div class="testimonial_area section_gap_bottom content_section" id="testomonial">
+     <div class="container">
+       <div class="row justify-content-center">
+         <div class="col-lg-8 text-center">
+           <div class="main_title">
+             <h2>client say about me</h2>
+             <p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
+               beginning signs open god you're gathering ithe</p>
+           </div>
+         </div>
+       </div>
+       <div class="row">
+         <div class="testi_slider owl-carousel">
+           <div class="testi_item">
+             <div class="row">
+               <div class="col-lg-4">
+                 <img src="./assets/img/testimonials/t1.jpg" alt="">
+               </div>
+               <div class="col-lg-8">
+                 <div class="testi_text">
+                   <h4>Elite Martin</h4>
+                   <p>Him, made can't called over won't there on divide there male fish beast own his day third seed
+                     sixth seas unto. Saw from </p>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="testi_item">
+             <div class="row">
+               <div class="col-lg-4">
+                 <img src="./assets/img/testimonials/t2.jpg" alt="">
+               </div>
+               <div class="col-lg-8">
+                 <div class="testi_text">
+                   <h4>Davil Saden</h4>
+                   <p>Him, made can't called over won't there on divide there male fish beast own his day third seed
+                     sixth seas unto. Saw from </p>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="testi_item">
+             <div class="row">
+               <div class="col-lg-4">
+                 <img src="./assets/img/testimonials/t1.jpg" alt="">
+               </div>
+               <div class="col-lg-8">
+                 <div class="testi_text">
+                   <h4>Elite Martin</h4>
+                   <p>Him, made can't called over won't there on divide there male fish beast own his day third seed
+                     sixth seas unto. Saw from </p>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="testi_item">
+             <div class="row">
+               <div class="col-lg-4">
+                 <img src="./assets/img/testimonials/t2.jpg" alt="">
+               </div>
+               <div class="col-lg-8">
+                 <div class="testi_text">
+                   <h4>Davil Saden</h4>
+                   <p>Him, made can't called over won't there on divide there male fish beast own his day third seed
+                     sixth seas unto. Saw from </p>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="testi_item">
+             <div class="row">
+               <div class="col-lg-4">
+                 <img src="./assets/img/testimonials/t1.jpg" alt="">
+               </div>
+               <div class="col-lg-8">
+                 <div class="testi_text">
+                   <h4>Elite Martin</h4>
+                   <p>Him, made can't called over won't there on divide there male fish beast own his day third seed
+                     sixth seas unto. Saw from </p>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="testi_item">
+             <div class="row">
+               <div class="col-lg-4">
+                 <img src="./assets/img/testimonials/t2.jpg" alt="">
+               </div>
+               <div class="col-lg-8">
+                 <div class="testi_text">
+                   <h4>Davil Saden</h4>
+                   <p>Him, made can't called over won't there on divide there male fish beast own his day third seed
+                     sixth seas unto. Saw from </p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>-->
   <!--================ End Testimonial Area =================-->
 
   <!--================ Start Newsletter Area =================-->
-  <section class="newsletter_area content_section">
+  <section class="newsletter_area content_section" id="contact">
     <div class="container">
+
+      <!-- Modal -->
+      <div class="modal fade" id="messageDialog" tabindex="-1" role="dialog" aria-labelledby="messageDialog"
+           aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content" style="padding-bottom: 20px">
+            <div class="modal-header">
+              <h6 class="modal-title" id="exampleModalLongTitle">Message Sending</h6>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div style="margin: 25px 25px; color: green; text-align: center">
+              <p v-if="loading"><i class="fa fa-spinner fa-spin fa-3x"></i></p>
+              <p v-else>Your message have been received. You will be replied very soon. Thank you!</p>
+            </div>
+            <div class="text-center" v-if="!loading">
+              <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="row justify-content-center align-items-center">
         <div class="col-lg-12">
           <div class="subscription_box text-center">
-            <h2 class="text-uppercase text-white">get update from anywhere</h2>
+            <h2 class="text-uppercase text-white">Have any query ?</h2>
             <p class="text-white">
-              Bearing Void gathering light light his eavening unto dont afraid.
+              Don't hesitate to contact me. I'm always be happy to answer your query.
             </p>
             <div class="subcribe-form" id="mc_embed_signup">
-              <form target="_blank" novalidate="true"
-                    action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                    method="get" class="subscription relative">
-                <input name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''"
-                       onblur="this.placeholder = 'Email address'" required="" type="email">
-                <div style="position: absolute; left: -5000px;">
-                  <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-                </div>
-                <button class="primary-btn hover d-inline">Get Started</button>
+              <form target="_blank" method="get" class="subscription relative" @submit.prevent="storeMessage">
+                <input name="EMAIL" placeholder="Enter email" v-model="message.email" type="email"><br>
+                <input name="name" placeholder="Your Name" v-model="message.name" type="text"><br>
+
+                <textarea name="message" placeholder="Your message"
+                          v-model="message.message"></textarea><br>
+
+                <button class="primary-btn hover d-inline">Send</button>
                 <div class="info"></div>
               </form>
             </div>
@@ -390,10 +441,10 @@ import Footer from "@/components/Footer";
 global.jQuery = require('jquery');
 var $ = global.jQuery;
 var jQuery = global.jQuery;
-window.$ = $;
+window.$ = jQuery;
 window.jQuery = jQuery;
 
-import {projectCollection} from "@/firebase";
+import {messageCollection, projectCollection} from "@/firebase";
 
 export default {
   name: 'App',
@@ -403,7 +454,13 @@ export default {
   },
   data() {
     return {
-      projects: []
+      projects: [],
+      message: {
+        'email': '',
+        'name': '',
+        'message': ''
+      },
+      loading: false
     }
   },
   methods: {
@@ -435,12 +492,36 @@ export default {
         });
       });
 
-      setTimeout(function (){
+      setTimeout(function () {
         $('.refresh').trigger("click");
       }, 2000)
 
+    },
+    storeMessage() {
+
+      if (!this.message.name || !this.message.email || !this.message) {
+        return;
+      }
+
+      $('#messageDialog').modal({
+        backdrop: 'static'
+      })
+
+      this.loading = true
+      var _this = this
+      messageCollection.add(this.message)
+          .then(docRef => {
+            _this.loading = false
+            _this.message = {}
+            console.log(docRef.id)
+          })
+          .catch(err => {
+            console.log(err)
+            _this.loading = false
+          });
     }
   },
+  computed: {},
   created() {
     this.fetchProjects()
   },
@@ -475,30 +556,35 @@ export default {
 
     }
 
-    if ($('.testi_slider').length) {
-      $('.testi_slider').owlCarousel({
-        loop: true,
-        margin: 30,
-        items: 2,
-        autoplay: true,
-        smartSpeed: 2500,
-        dots: true,
-        responsiveClass: true,
-        responsive: {
-          0: {
-            items: 1
-          },
-          991: {
-            items: 2
-          }
-        }
-      });
-    }
+    /*    if ($('.testi_slider').length) {
+          $('.testi_slider').owlCarousel({
+            loop: true,
+            margin: 30,
+            items: 2,
+            autoplay: true,
+            smartSpeed: 2500,
+            dots: true,
+            responsiveClass: true,
+            responsive: {
+              0: {
+                items: 1
+              },
+              991: {
+                items: 2
+              }
+            }
+          });
+        }*/
 
     $('.nav-link').on('click', function (event) {
       if (this.hash !== "") {
         event.preventDefault();
         var hash = this.hash
+
+        $('#navbarSupportedContent').removeClass('show');
+        $('.navbar-toggler')
+            .attr('aria-expanded', 'false')
+            .addClass('collapsed');
 
         $('html, body').animate({
           scrollTop: $(hash).offset().top
@@ -523,4 +609,26 @@ export default {
 /*@import './assets/vendors/nice-select/css/nice-select.css';*/
 
 @import './assets/css/style.css';
+
+.feature_item ul {
+  text-align: left !important;
+}
+
+.subscription_box .subscription textarea, .subscription_box .subscription input {
+  min-width: 380px;
+  max-width: 380px;
+  line-height: 1.5;
+  padding: 15px 25px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  font-weight: 400;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.navbar-light .navbar-toggler {
+  border: none !important;
+}
+
 </style>

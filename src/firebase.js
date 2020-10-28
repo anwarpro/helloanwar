@@ -1,4 +1,3 @@
-
 import * as firebase from 'firebase/app'
 import 'firebase/firestore'
 
@@ -20,9 +19,11 @@ firebase.initializeApp(firebaseConfig);
 // utils
 const db = firebase.firestore()
 const projectCollection = db.collection('projects')
+const messageCollection = db.collection('messages')
 
 export {
     db,
-    projectCollection
+    projectCollection,
+    messageCollection
 }
 
