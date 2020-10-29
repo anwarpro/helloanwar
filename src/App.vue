@@ -15,7 +15,7 @@
               <h5 class="text-uppercase">senior fullstack developer</h5>
               <div class="d-flex align-items-center">
                 <a class="primary_btn" href="#contact"><span>Hire Me</span></a>
-                <a class="primary_btn tr-bg" href="#"><span>Get CV</span></a>
+                <a class="primary_btn tr-bg"  target="_blank" href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1ueGrVOsMhkGbKpjtwcPd4gKeCJlallAjFwQq_lM7le4/export?format=pdf"><span>Get CV</span></a>
               </div>
             </div>
           </div>
