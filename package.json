@@ -21,6 +21,7 @@
     "popper.js": "^1.16.1",
     "vue": "^3.0.0",
     "vue-owl-carousel2": "^2.0.7",
+    "vue-router": "^4.0.0-0",
     "vue-smooth-scroll": "^1.0.13",
     "vue2-smooth-scroll": "^1.5.0",
     "vueisotope": "^3.1.2"
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",

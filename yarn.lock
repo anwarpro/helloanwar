@@ -1570,7 +1570,7 @@
     webpack "^4.0.0"
     yorkie "^2.0.0"
 
-"@vue/cli-plugin-router@^4.5.8":
+"@vue/cli-plugin-router@^4.5.8", "@vue/cli-plugin-router@~4.5.0":
   version "4.5.8"
   resolved "https://registry.yarnpkg.com/@vue/cli-plugin-router/-/cli-plugin-router-4.5.8.tgz#db70a69df4edc90690765f8c25749a68b20dd850"
   integrity sha512-tJwVLdX4jj0Ia/1hsBejRbo4gs0hb2z1z5ert+4Ve5RNdpOKUG69OaPQgXPqvuYSQh9MW7bqG0iJmYtVD+KBNw==
@@ -8999,6 +8999,11 @@ vue-owl-carousel2@^2.0.7:
     jquery "^3.3.1"
     owl.carousel "^2.3.4"
     style-loader "^0.23.0"
+
+vue-router@^4.0.0-0:
+  version "4.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.0-rc.1.tgz#42f41315849163a1243886c9aa6d7c14f24fd003"
+  integrity sha512-N3SSOIiRFo1/D6EkHGuahUSuyDvFhKizN5zVXkALX7wv0hYYndV49KwzRF5lKsAIt+OlDl7y+sNmwNewb7a4iw==
 
 vue-smooth-scroll@^1.0.13:
   version "1.0.13"

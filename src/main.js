@@ -9,5 +9,6 @@ import 'owl.carousel2/dist/assets/owl.carousel.min.css'
 import 'owl.carousel2/dist/assets/owl.theme.default.min.css'
 
 import 'isotope-layout/dist/isotope.pkgd.min'
+import router from './router'
 
-createApp(App).mount('#app')
+createApp(App).use(router).mount('#app')

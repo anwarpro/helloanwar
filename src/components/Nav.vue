@@ -14,11 +14,21 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-              <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/" @click.prevent="scrollFix('#home')" id="schome">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/" @click.prevent="scrollFix('#about')" id="scabout">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/" @click.prevent="scrollFix('#services')" id="scservices">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/" @click.prevent="scrollFix('#portfolio')" id="scportfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/" @click.prevent="scrollFix('#contact')" id="sccontact">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -28,8 +38,18 @@
 </template>
 
 <script>
+/* eslint-disable no-undef */
+
 export default {
-  name: 'Nav'
+  name: 'Nav',
+  methods: {
+    scrollFix: function (hash) {
+      setTimeout(() => $('html, body').animate({
+        // eslint-disable-next-line no-undef
+        scrollTop: $(hash).offset().top
+      }, 1000), 1)
+    }
+  }
 }
 </script>
 
