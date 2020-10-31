@@ -14,8 +14,9 @@
               <h1 class="text-uppercase">I am Anwar H.</h1>
               <h5 class="text-uppercase">senior fullstack developer</h5>
               <div class="d-flex align-items-center">
-                <a class="primary_btn" href="#contact"><span>Hire Me</span></a>
-                <a class="primary_btn tr-bg"  target="_blank" href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1ueGrVOsMhkGbKpjtwcPd4gKeCJlallAjFwQq_lM7le4/export?format=pdf"><span>Get CV</span></a>
+                <a class="primary_btn" href="#contact" id="hire-me"><span>Hire Me</span></a>
+                <a class="primary_btn tr-bg" target="_blank"
+                   href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1ueGrVOsMhkGbKpjtwcPd4gKeCJlallAjFwQq_lM7le4/export?format=pdf"><span>Get CV</span></a>
               </div>
             </div>
           </div>
@@ -54,7 +55,8 @@
               I like electronics & embedded programming. I spent my leisure time doing IoT, Arduino, circuit design &
               analysis.
             </p>
-            <a class="primary_btn" href="#"><span>Download CV</span></a>
+            <a class="primary_btn"
+               href="https://docs.google.com/document/d/1ueGrVOsMhkGbKpjtwcPd4gKeCJlallAjFwQq_lM7le4/export?format=pdf"><span>Download CV</span></a>
           </div>
         </div>
       </div>
@@ -66,63 +68,63 @@
             <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="single-brand-item d-table">
                 <div class="d-table-cell text-center">
-                  <img src="./assets/img/brands/logo1.png" alt="">
+                  <img src="./assets/img/brands/java.svg" alt="">
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="single-brand-item d-table">
                 <div class="d-table-cell text-center">
-                  <img src="./assets/img/brands/logo2.png" alt="">
+                  <img src="./assets/img/brands/php-1.svg" alt="">
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="single-brand-item d-table">
                 <div class="d-table-cell text-center">
-                  <img src="./assets/img/brands/logo3.png" alt="">
+                  <img src="./assets/img/brands/laravel-2.svg" alt="">
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="single-brand-item d-table">
                 <div class="d-table-cell text-center">
-                  <img src="./assets/img/brands/logo4.png" alt="">
+                  <img src="./assets/img/brands/vue-9.svg" alt="">
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="single-brand-item d-table">
                 <div class="d-table-cell text-center">
-                  <img src="./assets/img/brands/logo5.png" alt="">
+                  <img src="./assets/img/brands/android-4.svg" alt="Android">
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="single-brand-item d-table">
                 <div class="d-table-cell text-center">
-                  <img src="./assets/img/brands/logo6.png" alt="">
+                  <img src="./assets/img/brands/python-5.svg" alt="Python">
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="single-brand-item d-table">
                 <div class="d-table-cell text-center">
-                  <img src="./assets/img/brands/logo7.png" alt="">
+                  <img src="./assets/img/brands/wordpress-blue.svg" alt="Wordpress">
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="single-brand-item d-table">
                 <div class="d-table-cell text-center">
-                  <img src="./assets/img/brands/logo8.png" alt="">
+                  <img src="./assets/img/brands/nodejs-1.svg" alt="Arduino">
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="single-brand-item d-table">
                 <div class="d-table-cell text-center">
-                  <img src="./assets/img/brands/logo9.png" alt="">
+                  <img src="./assets/img/brands/arduino.svg" alt="Arduino">
                 </div>
               </div>
             </div>
@@ -169,8 +171,8 @@
         <div class="col-lg-3 col-md-6">
           <div class="feature_item">
             <img src="./assets/img/services/s1.png" alt="">
-            <h4>Mobile Application Development</h4>
-            <ul>
+            <h4>Application Development</h4>
+            <ul class="unordered-list">
               <li>Java</li>
               <li>Kotlin</li>
               <li>Flutter</li>
@@ -183,7 +185,7 @@
           <div class="feature_item">
             <img src="./assets/img/services/s2.png" alt="">
             <h4>Web Development</h4>
-            <ul>
+            <ul class="unordered-list">
               <li>PHP</li>
               <li>Laravel</li>
               <li>Vue</li>
@@ -197,7 +199,7 @@
           <div class="feature_item">
             <img src="./assets/img/services/s3.png" alt="">
             <h4>Web design</h4>
-            <ul>
+            <ul class="unordered-list">
               <li>HTML5</li>
               <li>CSS3</li>
               <li>Bootstrap</li>
@@ -212,7 +214,7 @@
           <div class="feature_item">
             <img src="./assets/img/services/s4.png" alt="">
             <h4>Database Administration</h4>
-            <ul>
+            <ul class="unordered-list">
               <li>MySql</li>
               <li>Postgres</li>
               <li>Mongodb</li>
@@ -242,32 +244,72 @@
       </div>
       <div class="filters portfolio-filter">
         <ul>
-          <li class="active refresh" data-filter="*">all</li>
-          <li data-filter=".android">Android</li>
+          <li class="active refresh" data-filter="*" :key="'filter_all'">all</li>
+          <li :data-filter="'.'+keyword" v-for="keyword in keywords" :key="'filter_'+keyword">{{ keyword }}</li>
         </ul>
       </div>
 
       <div class="filters-content">
         <div class="row portfolio-grid justify-content-center">
-          <div class="col-lg-4 col-md-6 all" v-for="(project,index) in projects" :key="index">
+          <div class="col-lg-4 col-md-6 all" :class="keywordsToStr(project.keywords)"
+               v-for="(project,index) in projects" :key="index">
             <div class="portfolio_box">
               <div class="single_portfolio">
-                <img class="img-fluid w-100" :src="project.image" alt="">
+                <img class="img-fluid w-100" :src="project.thumbs" alt="">
                 <div class="overlay"></div>
-                <a href="" class="img-gal">
+                <a href="" class="img-gal" @click.prevent="showProject(project)">
                   <div class="icon">
                     <span class="lnr lnr-cross"></span>
                   </div>
                 </a>
               </div>
               <div class="short_info">
-                <h4><a href="">{{ project.name }}</a></h4>
-                <p>{{ project.description }}</p>
+                <h4><a href="#" @click.prevent="showProject(project)">{{ project.name }}</a></h4>
+                <p>{{ project.title }}</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <modal v-if="showPortfolio" @close="hideProject">
+        <template v-slot:header>
+          <h3>
+            {{ project.name }}
+          </h3>
+          <small>{{ project.title }}</small>
+        </template>
+        <template v-slot:body>
+          <div class="portfolio_details_inner">
+            <div class="row">
+              <div class="col-lg-12">
+                <!--slider-->
+              </div>
+              <div class="col-lg-5">
+                <div class="left_img">
+                  <img class="img-fluid" :src="project.thumbs" :alt="project.name">
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="portfolio_right_text">
+                  <h4 class="text-uppercase">{{ project.name }}</h4>
+                  <small>{{ project.title }}</small>
+                  <ul class="list" id="keywords">
+                    <li v-for="keyword in project.techs" :key="keyword">{{ keyword }}</li>
+                  </ul>
+                  <ul class="unordered-list">
+                    <li v-for="(link,key,index) in project.links" :key="index">
+                      {{ key.toUpperCase() }} : <a :href="link" target="_blank">{{ link }}</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div v-html="project.description"></div>
+          </div>
+        </template>
+      </modal>
+
     </div>
   </section>
   <!--================End Portfolio Area =================-->
@@ -444,11 +486,18 @@ var jQuery = global.jQuery;
 window.$ = jQuery;
 window.jQuery = jQuery;
 
+global._ = require('loadsh');
+var _ = global._;
+window._ = global._;
+
+
 import {messageCollection, projectCollection} from "@/firebase";
+import Modal from "@/components/Modal";
 
 export default {
   name: 'App',
   components: {
+    Modal,
     Footer,
     Nav
   },
@@ -460,7 +509,9 @@ export default {
         'name': '',
         'message': ''
       },
-      loading: false
+      loading: false,
+      showPortfolio: false,
+      project: {}
     }
   },
   methods: {
@@ -519,9 +570,28 @@ export default {
             console.log(err)
             _this.loading = false
           });
+    },
+    keywordsToStr(item) {
+      return _.map(item, function (i) {
+        return ' ' + i;
+      });
+    },
+    showProject(project) {
+      this.showPortfolio = true
+      this.project = project
+      document.body.classList.add("modal-open");
+    },
+    hideProject() {
+      document.body.classList.remove("modal-open");
+      this.showPortfolio = false
+      this.project = {}
     }
   },
-  computed: {},
+  computed: {
+    keywords: function () {
+      return _.uniq(_.flatMap(_.map(this.projects, 'keywords')));
+    }
+  },
   created() {
     this.fetchProjects()
   },
@@ -576,7 +646,7 @@ export default {
           });
         }*/
 
-    $('.nav-link').on('click', function (event) {
+    $('.nav-link, #hire-me').on('click', function (event) {
       if (this.hash !== "") {
         event.preventDefault();
         var hash = this.hash
@@ -629,6 +699,10 @@ export default {
 
 .navbar-light .navbar-toggler {
   border: none !important;
+}
+
+body.modal-open {
+  overflow: hidden;
 }
 
 </style>
