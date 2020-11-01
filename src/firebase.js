@@ -1,5 +1,6 @@
 import * as firebase from 'firebase/app'
 import 'firebase/firestore'
+import 'firebase/storage';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -18,12 +19,16 @@ firebase.initializeApp(firebaseConfig);
 
 // utils
 const db = firebase.firestore()
+const storage = firebase.storage()
 const projectCollection = db.collection('projects')
 const messageCollection = db.collection('messages')
+const projectsStorage = storage.ref('projects/');
 
 export {
     db,
     projectCollection,
-    messageCollection
+    messageCollection,
+    storage,
+    projectsStorage
 }
 
