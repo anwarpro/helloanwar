@@ -560,7 +560,7 @@ export default {
     },
     keywordsToStr(item) {
       return _.map(item, function (i) {
-        return ' ' + i;
+        return ' ' + i.toLowerCase();
       });
     },
     showProject(project) {
@@ -577,7 +577,12 @@ export default {
   computed: {
     keywords: function () {
       // eslint-disable-next-line no-undef
-      return _.uniq(_.flatMap(_.map(this.projects, 'keywords')));
+
+      let keywords = _.flatMap(_.map(this.projects, 'keywords'))
+          .join('|')
+          .toLowerCase()
+          .split('|')
+      return _.uniq(keywords);
     }
   },
   created() {
