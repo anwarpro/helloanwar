@@ -1,12 +1,27 @@
 <template>
-<div class="dashboard">
-  Dashboard
-</div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header">Dashboard</div>
+          <div class="card-body">
+            <div v-if="user" class="alert alert-success" role="alert">You are logged in!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
+import { mapGetters } from "vuex";
 export default {
-name: "Dashboard"
+name: "Dashboard",
+  computed: {
+  ...mapGetters({
+    user: 'user'
+  })
+  }
 }
 </script>
 

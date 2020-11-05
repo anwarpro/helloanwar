@@ -25,12 +25,14 @@
     "vue-router": "^4.0.0-0",
     "vue-smooth-scroll": "^1.0.13",
     "vue2-smooth-scroll": "^1.5.0",
-    "vueisotope": "^3.1.2"
+    "vueisotope": "^3.1.2",
+    "vuex": "^4.0.0-0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",

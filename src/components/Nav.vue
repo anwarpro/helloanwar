@@ -29,6 +29,20 @@
               <li class="nav-item">
                 <a class="nav-link" href="/" @click.prevent="scrollFix('#contact')" id="sccontact">Contact</a>
               </li>
+
+              <template v-if="user.loggedIn">
+                <div class="nav-item">{{user.data.displayName}}</div>
+                <li class="nav-item">
+                  <a class="nav-link" @click.prevent="signOut">Sign out</a>
+                </li>
+              </template>
+
+              <template v-else>
+                <li class="nav-item">
+                  <router-link to="login" class="nav-link">Login</router-link>
+                </li>
+              </template>
+
             </ul>
           </div>
         </div>
@@ -40,15 +54,42 @@
 <script>
 /* eslint-disable no-undef */
 
+import { mapGetters } from "vuex";
+import {firebase} from "@/firebase";
+
 export default {
   name: 'Nav',
   methods: {
     scrollFix: function (hash) {
-      setTimeout(() => $('html, body').animate({
-        // eslint-disable-next-line no-undef
-        scrollTop: $(hash).offset().top
-      }, 1000), 1)
+      if($(hash).offset()){
+        setTimeout(() => $('html, body').animate({
+          // eslint-disable-next-line no-undef
+          scrollTop: $(hash).offset().top
+        }, 1000), 1)
+      } else {
+        this.$router.replace({name: "Home"});
+        setTimeout(() => $('html, body').animate({
+          // eslint-disable-next-line no-undef
+          scrollTop: $(hash).offset().top
+        }, 1000), 500)
+      }
+    },
+    signOut() {
+      firebase
+          .auth()
+          .signOut()
+          .then(() => {
+            this.$router.replace({
+              name: "Home"
+            });
+          });
     }
+  },
+
+  computed: {
+    ...mapGetters({
+      user: 'user'
+    })
   }
 }
 </script>

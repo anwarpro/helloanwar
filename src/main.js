@@ -10,5 +10,6 @@ import 'owl.carousel2/dist/assets/owl.theme.default.min.css'
 
 import 'isotope-layout/dist/isotope.pkgd.min'
 import router from './router'
+import store from './store'
 
-createApp(App).use(router).mount('#app')
+createApp(App).use(store).use(router).mount('#app')
