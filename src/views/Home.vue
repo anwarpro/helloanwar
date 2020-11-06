@@ -470,7 +470,7 @@
 <script>
 /* eslint-disable no-undef */
 
-import {messageCollection, projectCollection} from "@/firebase";
+import {messageCollection, projectCollection, firebase} from "@/firebase";
 import Modal from "@/components/Modal";
 
 export default {
@@ -547,6 +547,7 @@ export default {
 
       this.loading = true
       var _this = this
+      this.message.created = firebase.firestore.FieldValue.serverTimestamp()
       messageCollection.add(this.message)
           .then(docRef => {
             _this.loading = false
