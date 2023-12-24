@@ -16,7 +16,7 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - run: ./gradlew composeApp:wasmJsBrowserProductionExecutableDistributeResources --no-daemon
+      - run: ./gradlew wasmJsBrowserDistribution --no-daemon
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
