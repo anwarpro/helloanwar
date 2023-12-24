@@ -21,7 +21,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAGE_PUBLISH_KEY }}
           external_repository: anwarpro/anwarpro.github.io
           publish_dir: ./composeApp/build/dist/wasmJs/productionExecutable
           cname: helloanwar.com
